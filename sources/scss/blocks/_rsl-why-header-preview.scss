@@ -1,0 +1,70 @@
+.rsl-why-header-preview {
+    padding: 140px 0 66px 0;
+    
+    .rsl-container {
+        position: relative;
+    }
+    
+    //Figure
+    &__figure-1 {
+        position: absolute;
+        top: 54px;
+        left: 67px;
+        z-index: -1;
+    }
+    
+    &__figure-2 {
+        position: absolute;
+        top: 0;
+        left: 358px;
+        z-index: -1;
+    }
+    
+    &__figure-3 {
+        position: absolute;
+        top: 0;
+        left: 790px;
+        z-index: -1;
+    }
+    
+    
+    &__desc {
+        margin: 0;
+        color: $gray-600;
+        font-size: 22px;
+        line-height: 150%;
+        padding: 40px 0 48px 0;
+        max-width: 822px;
+    }
+    
+    &__statistic,
+    .statistic {
+        display: flex;
+        column-gap: 200px;
+        margin-top: 160px;
+        
+        &__item {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            padding-top: 20px;
+        
+            span {
+                font-size: 72px;
+                color: $black;
+                font-weight: 400;
+                font-family: $font-family-denim;
+                line-height: 77px;
+                letter-spacing: -0.025em;
+                text-transform: capitalize;
+            }
+            
+            p {
+                margin: 0;
+                font-size: 16px;
+                line-height: 24px;
+                color: $gray-600;
+            }
+        }
+    }
+}

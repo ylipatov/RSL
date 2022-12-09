@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Site Title -->
+  <title>{{ page_name if page_name else 'Title' }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="">
+  <link rel="apple-touch-icon-precomposed" href="">
+  <meta name="theme-color" content="#2775FF">
+  <meta name="keywords" content="themeforest, theme, html, template"/>
+  <meta name="description" content="themeforest, theme, html, template"/>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  {% include "templates/header.html" %}
+
+  <!-- The Main Wrapper -->
+  <main class="main-wrapper">
+    {% block content %}{% endblock %}
+  </main>
+  <!-- /The Main Wrapper -->
+
+  {% include "templates/footer.html" %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

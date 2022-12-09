@@ -1,0 +1,31 @@
+.rsl-our-founders__item {
+    max-width: 284px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.rsl-our-founders__photo {
+    border-radius: 8px;
+}
+
+.rsl-our-founders__name {
+    margin: 0;
+    font-family: $font-family-denim;
+    color: $black;
+}
+
+.rsl-our-founders__position {
+    padding: 6px 0 24px 0;
+}
+
+.rsl-our-founders__position,
+.rsl-our-founders__desc {
+    margin: 0;
+    color: $gray-600;
+    font-size: 14px;
+    line-height: 22px;
+}
+

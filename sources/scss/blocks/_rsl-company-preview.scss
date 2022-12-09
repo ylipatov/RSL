@@ -1,0 +1,48 @@
+.rsl-company-preview {
+    padding: 140px 0;
+    
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__title {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: 500px;
+        height: auto;
+        
+        h1 {
+            margin: 0;
+            font-family: $font-family-denim;
+            color: $black;
+        }
+        
+        p {
+            color: $gray-600;
+            margin: 0;
+            font-size: 22px;
+            line-height: 150%;
+            
+        }
+    }
+    
+    &__image {
+        max-width: 608px;
+        height: auto;
+        padding: 16px;
+        background-color: $white;
+        border-radius: 16px;
+        box-shadow: 16px 16px 40px rgba(0, 0, 0, 0.04);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

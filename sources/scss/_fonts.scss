@@ -1,0 +1,49 @@
+@import "variables";
+
+@font-face {
+  font-family: "Denim";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Denim-Light.woff") format("woff"), url("../fonts/Denim-Light.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Denim";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Denim-Regular.woff") format("woff"), url("../fonts/Denim-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Denim";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Denim-SemiBold.woff") format("woff"), url("../fonts/Denim-SemiBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ES Allianz";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ESAllianz-Regular.woff") format("woff"), url("../fonts/ESAllianz-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ES Allianz";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ESAllianz-Book.woff") format("woff"), url("../fonts/ESAllianz-Book.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ES Allianz";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ESAllianz-Extrabold.woff") format("woff"), url("../fonts/ESAllianz-Extrabold.woff2") format("woff2");
+  font-display: swap;
+}

@@ -1,0 +1,100 @@
+.rsl-contact-thank-you {
+    position: relative;
+    padding: 140px 0 615px 0;
+    
+    //Figure
+    .rsl-contact-thank-you__figure {
+        position: absolute;
+        height: auto;
+        
+        &_1 {
+            top: 0;
+            left: 0;
+        }
+        
+        &_2 {
+            top: 0;
+            right: 0;
+        }
+        
+        &_3 {
+            top: calc(50% - 110px);
+            right: 0;
+            transform: translateY(-50%);
+            z-index: -10;
+        }
+        
+        &_4 {
+            bottom: 0;
+            right: 93px;
+        }
+        
+        &_5 {
+            bottom: 0;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    }
+    
+    &__title {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: 770px;
+        width: 100%;
+        
+        h1 {
+            color: $black;
+            margin: 0;
+            font-family: $font-family-denim;
+        }
+        
+        p {
+            font-size: 22px;
+            line-height: 150%;
+            color: $gray-600;
+        }
+        
+        span {
+            text-decoration: underline;
+        }
+    }
+    
+    &__wrap {
+        margin-top: 80px;
+        padding: 125px 0 100px 0;
+        position: relative;
+        z-index: 10;
+    
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: calc(100% - 128px);
+            border-radius: 0 0 16px 0;
+            z-index: -10;
+            background-color: $white;
+        }
+    }
+    
+    &__title-form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: 870px;
+    
+        h1 {
+            color: $black;
+            margin: 0;
+            font-family: $font-family-denim;
+        }
+    
+        p {
+            font-size: 22px;
+            line-height: 150%;
+            color: $gray-600;
+        }
+    }
+}

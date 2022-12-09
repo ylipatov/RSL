@@ -1,0 +1,9 @@
+{% macro list(data) %}
+  <div class="container">
+    <ul>
+      {% for item in data %}
+        <li>{{ item.text }}</li>
+      {% endfor %}
+      </ul>
+  </div>
+{% endmacro %}

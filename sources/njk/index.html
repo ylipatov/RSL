@@ -1,0 +1,17 @@
+{% set page_name = 'Home' %}
+{% extends "layouts/layout.html" %} 
+
+{% from 'blocks/testimonial.html' import testimonial %}
+{% from 'blocks/list.html' import list %}
+
+<!-- main -->
+
+{% block content %}
+
+  {{ testimonial('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id semper risus in hendrerit gravida rutrum. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Augue eget arcu dictum varius duis. Cras ornare arcu dui vivamus arcu. Venenatis cras sed felis eget velit aliquet. Turpis massa tincidunt dui ut ornare lectus sit amet. Est ullamcorper eget nulla facilisi etiam dignissim diam. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Aliquet eget sit amet tellus cras. Vulputate ut pharetra sit amet aliquam id diam. Pharetra diam sit amet nisl.') }}
+
+  {{ list(data) }}
+
+{% endblock %}
+
+<!-- /main -->

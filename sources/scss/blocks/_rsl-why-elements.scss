@@ -1,0 +1,82 @@
+.rsl-why-elements {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 26px;
+    
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: calc(100% - 128px);
+        background-color: $white;
+        box-shadow: 16px 16px 40px rgba(0, 0, 0, 0.04);
+        border-radius: 0 0 16px 0;
+        z-index: -10;
+    }
+    
+    &__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 40px;
+        
+        
+        h2 {
+            margin: 0;
+            color: $black;
+            font-family: $font-family-denim;
+            text-align: center;
+        }
+        
+        p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 160%;
+            color: $gray-600;
+            text-align: center;
+        }
+    }
+    
+    &__wrap-items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 110px;
+        row-gap: 56px;
+        padding-top: 80px;
+    }
+    
+    &__item,
+    .item {
+        max-width: 323px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        
+        &__logo {
+            width: 60px;
+            height: 60px;
+            border: 1px solid $black;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $light-green;
+        }
+        
+        &__title {
+            color: $black;
+            margin: 0;
+        }
+        
+        &__subtitle {
+            font-size: 14px;
+            line-height: 22px;
+            color: $gray-600;
+            margin: 0;
+        }
+    }
+}

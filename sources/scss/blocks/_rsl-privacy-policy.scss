@@ -1,0 +1,39 @@
+.rsl-privacy-policy {
+    padding: 140px 0;
+    position: relative;
+    
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    
+    &__title {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        
+        h1 {
+            color: $black;
+            margin: 0;
+            font-family: $font-family-denim;
+        }
+    }
+    
+    h2 {
+        color: $black;
+        margin: 0;
+        font-family: $font-family-denim;
+        font-weight: 400;
+    }
+    
+    p {
+        margin: 0;
+        color: $gray-600;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    
+    
+   
+}

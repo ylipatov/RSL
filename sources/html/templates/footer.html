@@ -1,0 +1,15 @@
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+@@if(context.js){
+  @@for (var i = 0; i < js.length; i++) {
+    <script src="`+js[i]+`"></script>
+  }
+}
+
+</body>
+
+</html>

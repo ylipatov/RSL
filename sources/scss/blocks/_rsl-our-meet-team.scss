@@ -1,0 +1,58 @@
+.rsl-our-meet-team {
+    background-color: $white;
+    padding: 140px 0;
+    
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 40px;
+    }
+    
+    //active item
+    
+    &__item-active {
+        max-width: 284px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+    &__photo-active {
+        border: 1px solid $black;
+        border-radius: 8px;
+        background-color: $light-green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 72px;
+    }
+    
+    &__info-active {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    
+        h5 {
+            color: $black;
+            margin: 0;
+        }
+    
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0;
+            color: $gray-600;
+        }
+    }
+    
+}
+
+
+
+

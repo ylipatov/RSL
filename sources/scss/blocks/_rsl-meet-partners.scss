@@ -1,0 +1,49 @@
+.rsl-meet-partners {
+    padding: 140px 0;
+    position: relative;
+    
+    &__title {
+        color: $black;
+        margin: 0;
+    }
+    
+    &__wrap-logos {
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    
+    &__logo-item {
+        background-color: $white;
+        padding: 16px 28px;
+        border-radius: 8px;
+        box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.04);
+    }
+    
+    &__figure {
+        position: absolute;
+        z-index: -999;
+        
+        &_1 {
+            top: 0;
+            left: 0;
+        }
+        
+        &_2 {
+            top: 0;
+            right: 0;
+        }
+        
+        &_3 {
+            right: 0;
+            top: 416px;
+        }
+        
+        &_4 {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-246px);
+        }
+    }
+}

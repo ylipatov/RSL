@@ -1,0 +1,10 @@
+.rsl-our-founders {
+    background-color: $white;
+    padding: 140px 0;
+    
+    &__wrap {
+        display: flex;
+        column-gap: 40px;
+        flex-wrap: wrap;
+    }
+}

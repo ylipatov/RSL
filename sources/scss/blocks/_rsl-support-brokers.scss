@@ -1,0 +1,75 @@
+.rsl-support-brokers {
+    padding: 140px 0;
+    position: relative;
+    
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: calc(100% - 128px);
+        border-radius: 0 16px 16px 0;
+        z-index: -10;
+        background-color: #fff;
+    }
+    
+    //Figure
+    &__figure {
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: -999;
+    }
+    
+    &__title {
+        color: $black;
+        margin: 0;
+        text-align: center;
+    }
+    
+    &__items-wrap {
+        display: flex;
+        column-gap: 40px;
+        padding-top: 34px;
+    }
+    
+    &__item {
+        max-width: 348px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    
+    &__image {
+        position: relative;
+        background-color: $light-green;
+        border: 1px solid $black;
+        border-radius: 8px;
+        height: 295px;
+        
+        &_center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    &__info {
+        
+        h5 {
+            color: $black;
+            margin: 0;
+        }
+        
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            color: $gray-600;
+            margin: 0;
+            padding-top: 24px;
+        }
+    }
+}

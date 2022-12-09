@@ -1,0 +1,61 @@
+.rsl-brokers-preview {
+    padding: 100px 0;
+    
+    &__wrap {
+        display: flex;
+        column-gap: 176px;
+        align-items: center;
+    }
+    
+    &__title {
+        max-width: 501px;
+        width: 100%;
+        
+        h1 {
+            font-family: $font-family-denim;
+            margin: 0;
+            color: $black;
+        }
+        
+        p {
+            color: $gray-600;
+            margin: 0;
+            font-size: 22px;
+            line-height: 150%;
+            padding: 40px 0 48px 0;
+        }
+    }
+    
+    &__collage {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px;
+        position: relative;
+        align-items: flex-end;
+        max-width: 579px;
+        height: auto;
+    }
+    
+    &__collage-item {
+        background-color: $white;
+        padding: 10px;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 16px 16px 40px rgba(0, 0, 0, 0.04);
+    }
+    
+    &__logo {
+        position: absolute;
+        left: 21px;
+        bottom: 75px;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        border: 1px solid $black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $white;
+        
+    }
+}

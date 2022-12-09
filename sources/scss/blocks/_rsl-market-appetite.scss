@@ -1,0 +1,97 @@
+.rsl-market-appetite {
+    background-color: $white;
+    padding: 120px 0 70px 0;
+    
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 80px;
+    }
+    
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    
+    &__h2 {
+        color: $black;
+        margin: 0;
+        font-family: $font-family-denim;
+    }
+    
+    &__title-desc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 160%;
+            color: $black;
+        }
+    }
+    
+    &__wrap-items {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        max-width: 608px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        
+        h5 {
+            color: $black;
+            margin: 0;
+        }
+    }
+    
+    &__map-logo {
+        width: 100%;
+        border: 1px solid $black;
+        border-radius: 8px;
+        background-color: $light-green;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__desc-item {
+        display: flex;
+        column-gap: 40px;
+        
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: $black;
+        }
+        
+        p {
+            margin: 0;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: $black;
+        }
+    }
+    
+    .desc-item-left {
+        min-width: 150px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+    
+    .desc-item-right {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+}
