@@ -6921,7 +6921,14 @@ var _ScrollTrigger = require("./app/gsap/ScrollTrigger");
 var _functions = require("./app/functions");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 _gsap.gsap.registerPlugin(_ScrollTrigger.ScrollTrigger);
-(function ($) {})(jQuery);
+(function ($) {
+  $('.js-open-mobile-menu').on('click', function () {
+    var $self = $(this);
+    $('body').toggleClass('overflow-hidden');
+    $self.toggleClass('active');
+    $('.js-header-mobile').toggleClass('active');
+  });
+})(jQuery);
 
 },{"./app/functions":1,"./app/gsap/ScrollTrigger":2,"./app/gsap/gsap":3,"./app/gutenberg":4,"swiper/swiper-bundle":6}],6:[function(require,module,exports){
 /**

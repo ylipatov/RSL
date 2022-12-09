@@ -9,4 +9,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 (function ($) {
 
+    $('.js-open-mobile-menu').on('click', function () {
+        let $self = $(this)
+
+        $('body').toggleClass('overflow-hidden')
+        $self.toggleClass('active')
+        $('.js-header-mobile').toggleClass('active')
+    })
+
 })(jQuery);
